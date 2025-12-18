@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+{% include 'navbar.html' %}
+
+<h2 align="center">Admin Panel</h2>
+
+<table>
+<tr>
+<th>Food</th>
+<th>Price</th>
+</tr>
+<tr><td>Gobi Rice</td><td>₹130</td></tr>
+<tr><td>Ghee Rice</td><td>₹140</td></tr>
+<tr><td>Ambur Biriyani</td><td>₹180</td></tr>
+<tr><td>Fish Fry</td><td>₹130</td></tr>
+<tr><td>Prawn Gravy</td><td>₹120</td></tr>
+</table>
+
+</body>
+</html>

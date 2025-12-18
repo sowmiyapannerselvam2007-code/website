@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+{% include 'navbar.html' %}
+
+<h2 align="center">Our Menu</h2>
+
+<div class="menu-grid">
+
+<div class="food-card">
+<img src="{% static 'images/gobi.png' %}">
+<h3>Gobi Rice</h3>
+<p>₹130</p>
+</div>
+
+<div class="food-card">
+<img src="{% static 'images/ghee.png' %}">
+<h3>Ghee Rice</h3>
+<p>₹100</p>
+</div>
+
+<div class="food-card">
+<img src="{% static 'images/ambur biriyani.png' %}">
+<h3>Chicken Biriyani</h3>
+<p>₹180</p>
+</div>
+
+<div class="food-card">
+<img src="{% static 'images/fish.png' %}">
+<h3>Fish Fry</h3>
+<p>₹150</p>
+</div>
+
+<div class="food-card">
+<img src="{% static 'images/prawn.png' %}">
+<h3>Prawn Gravy</h3>
+<p>₹200</p>
+</div>
+
+</div>
+
+</body>
+</html>
